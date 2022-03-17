@@ -246,6 +246,16 @@ body{
    top: 65%;
  }
 
+ .shopnow-btn{
+  
+  width: 150px;
+  height: 30px;
+  font-size: 17px;
+  
+  
+    }
+  
+
 #img{
   height: 400px;
 }
