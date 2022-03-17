@@ -1,0 +1,280 @@
+ body {
+     background-color:black;
+   	height: 100%;
+     margin: 0;
+}
+
+
+.logo {
+font-size: 30px;
+color: white;
+display:inline;
+padding-left: 160px;
+text-decoration: line-through;
+text-decoration-line: line-through;
+font-family: "Spinnaker";
+height: 150px;
+}
+
+.head {
+font-size: 30px;
+color: white;
+display: inline;
+padding: 0px 0px;
+padding-left: 0px;
+letter-spacing: 0.2em;
+text-decoration: none;
+font-family: "Spinnaker";
+height: 150px;
+}
+
+.head:hover{
+  transform: scale(1.1);
+}
+
+a {font-size: 17px;
+  text-decoration: none;
+}
+
+div {
+background-color: black;
+overflow: visible;
+width:auto;
+padding-top: 15px;
+padding-bottom: 15px;
+margin: 0;
+
+}
+
+.topnav {
+ display: inline;
+ padding-left: 200px;
+ width: 100px;
+ font-family:"Montserrat";
+height: auto;
+
+} 
+ 
+.topnav a {
+  color: white;
+  padding:0px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: right;
+
+}
+
+   .topnav a:hover {
+color:gray;
+text-decoration: none;
+}
+
+.dropbtn {
+
+  background-color:transparent;
+  color: white;
+  padding: 0px 15px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  font-family:"Montserrat";
+}
+
+.dropdown {
+  position: relative;
+  display:inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: inherit;
+  min-width: 160px;
+  box-shadow: none;
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: white;
+  text-align: left;
+  background-color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: inherit;
+}
+
+
+
+
+.log  {
+  color: darkorange;
+  padding:0px px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  padding-top: 0px;
+  font-size: 17px;
+  text-align: right;
+
+}
+
+img { 
+  height: 100%;
+  width: 100%;
+  display: block;
+  
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    background-color: transparent;
+    color: white;
+    text-decoration: line-through;
+    font-family:"Spinnaker"
+
+  }
+
+  #kvtext { 
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    background-color: transparent;
+    color: white;
+    font-family: "Spinnaker";
+  }
+  
+.shopnow {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  background-color: transparent;
+  color:brown
+}
+
+.shopnow-btn {
+background-color: white;
+color: black;
+display: block;
+border: none;
+padding: 2px 15px;
+font-family: "Spinnaker"
+}
+ 
+.icon{
+  display: none !important;
+}
+
+.shopnow-btn:hover{
+color: white;
+background-color: black;
+
+}
+
+#ads-bar{
+  text-align: center;
+  font-family:"Montserrat";
+  color: white;
+  font-weight: 500;
+  letter-spacing: 5px;
+  background-color: rgb(36, 33, 33);
+  margin: 0;
+  height: 50px;
+  padding-top: 20px;
+ 
+}
+
+footer{
+margin: 0;
+background-color: black;
+
+
+ 
+}
+
+p{
+  font-family:"Montserrat";
+  color: #7c7a7a;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px;
+  padding-bottom: 0;
+  letter-spacing: 5px;
+}
+
+#copyright{
+  padding-top: 0;
+  margin-top: 0;
+  color: white;
+  margin-top: 20px;
+}
+
+@media (max-width:600px){
+ 
+body{
+  height: 100px;
+}
+
+ .head, .logo{
+   font-size: 20px;
+   text-align: left;
+   padding-left: 0;
+   margin-left: 0;
+   margin-right: 0;
+ }
+ 
+ .center, #kvtext{
+   display: none;
+ }
+
+ .shopnow{
+   margin-top: 0;
+   top: 65%;
+ }
+
+#img{
+  height: 400px;
+}
+
+
+
+  .topnav a{
+    display: none;
+}
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .icon {
+    display: block !important ;
+    color: white;
+    float: right;
+    font-size: 20px;
+   padding-right: 10px;
+   cursor: pointer;
+  }
+
+}
+
