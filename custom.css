@@ -5,6 +5,7 @@
 }
 
 
+
 .logo {
 font-size: 30px;
 color: white;
@@ -175,9 +176,7 @@ padding: 2px 15px;
 font-family: "Spinnaker"
 }
  
-.icon{
-  display: none !important;
-}
+
 
 .shopnow-btn:hover{
 color: white;
@@ -223,7 +222,7 @@ p{
   margin-top: 20px;
 }
 
-@media (max-width:600px){
+@media (max-width:768px){
  
 body{
   height: 100px;
@@ -278,7 +277,7 @@ body{
   }
 
   .icon {
-    display: block !important ;
+    display: block;
     color: white;
     float: right;
     font-size: 20px;
@@ -288,3 +287,10 @@ body{
 
 }
 
+@media (min-width:500px){
+.icon{
+
+  display:none !important;
+}
+}
+  
